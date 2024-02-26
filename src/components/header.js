@@ -29,11 +29,11 @@ function Header() {
       </h1>
       <h1 className="text-secondary text-4xl font-semibold" title="My home">
         <a
-          href="https://en.wikipedia.org/wiki/Kashmir"
+          href="https://en.wikipedia.org/wiki/Sohna"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Kashmir
+          Sohna, Haryana
         </a>
       </h1>
     </div>
