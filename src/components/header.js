@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="p-5 bg-primary flex justify-between">
       <h1
-        className="text-tertiary text-4xl font-semibold"
+        className="text-secondary text-4xl font-semibold"
         title="Marvel Cinematic Universe"
       >
         <a
@@ -27,13 +27,13 @@ function Header() {
           Manchester United
         </a>
       </h1>
-      <h1 className="text-secondary text-4xl font-semibold" title="My home">
+      <h1 className="text-tertiary text-4xl font-semibold" title="My home">
         <a
-          href="https://en.wikipedia.org/wiki/Sohna"
+          href="https://en.wikipedia.org/wiki/Kashmir"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sohna, Haryana
+          Kashmir
         </a>
       </h1>
     </div>
