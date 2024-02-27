@@ -9,6 +9,10 @@ module.exports = {
         tertiary: "#54d6bb",
       },
     },
+    screens: {
+      sm: "820px",
+      lg: "2000px",
+    },
   },
   plugins: [],
 };
