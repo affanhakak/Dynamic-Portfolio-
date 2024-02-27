@@ -2,6 +2,17 @@ import React from "react";
 import SectionTitle from "../../components/SectionTitle";
 
 function About() {
+  const skills = [
+    "Javascript",
+    "Angular",
+    "React",
+    "Node",
+    "Express",
+    "MongoDB",
+    "Tailwind",
+    "Bootstrap",
+    "Angular Material",
+  ];
   return (
     <div>
       <SectionTitle title="About Me" />
@@ -26,8 +37,21 @@ function About() {
           <p className="text-white">
             Other than programming, we can have a cup of coffee and discuss
             about Football, Comic books, Marvels and Game Of Thrones. We can
-            connect on linkedin or whatsapp
+            connect on linkedin or whatsapp.
           </p>
+        </div>
+      </div>
+      <div className="py-5">
+        <h1 className="text-tertiary text-xl">
+          The tech stack that I am currently working on personally or
+          professionally
+        </h1>
+        <div className="flex flex-wrap gap-10 mt-5">
+          {skills.map((skill, index) => (
+            <div className="border border-tertiary py-3 px-10">
+              <h1 className="text-tertiary">{skill}</h1>
+            </div>
+          ))}
         </div>
       </div>
     </div>
