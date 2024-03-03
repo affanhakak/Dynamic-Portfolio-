@@ -15,7 +15,14 @@ function Contact() {
     <div>
       <SectionTitle title="Let's Connect" />
       <div className="flex">
-        <h1 className="text-white">{"("}</h1>
+        <h1 className="text-white">{"{"}</h1>
+        {Object.keys(user).map((key) => {
+          <h1>
+            <span className="text-white">{key}</span>:
+            <span className="text-tertiary">{user[key]}</span>
+          </h1>;
+          <h1 className="text-white">{"}"}</h1>;
+        })}
       </div>
     </div>
   );
