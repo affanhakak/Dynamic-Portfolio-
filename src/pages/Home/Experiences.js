@@ -6,12 +6,12 @@ function Experiences() {
   const [selectedItemIndex, setSelectedItemIndex] = React.useState(0);
   return (
     <div>
-      <SectionTitle title="My Experience" />
+      <SectionTitle title="Experience" />
       <div className="flex py-10 gap-20 sm:flex-col">
         <div
           className="flex flex-col gap-10 border-l-2 
          border-[#135e4c82] w-1/3 sm:w-full 
-         sm:flex-row "
+         sm:flex-row overflow-x-scroll"
         >
           {experiences.map((experience, index) => {
             return (

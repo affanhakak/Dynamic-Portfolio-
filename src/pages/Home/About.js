@@ -24,12 +24,10 @@ function About() {
         </div>
         <div className="flex flex-col gap-5 w-1/2 sm:w-full">
           <p className="text-white">
-            I enjoy creating things on the web and upload them on a free source
-            platform like github. I aim to create a bootstrap like library of my
-            own and make it free for everyone. Coding is something that I
-            absolutely enjoy. I started as a UI developer and eventually due to
-            my enthusiasm and love for the thing, I started learning backend and
-            database as well.
+            I like to write web content and share it on GitHub and other
+            platforms. For me, there is delight in coding. My passion has
+            inspired me to learn more about databases and backend development,
+            even though I started out as a UI developer.
           </p>
           <p className="text-white">
             Other than programming, we can have a cup of coffee and discuss
