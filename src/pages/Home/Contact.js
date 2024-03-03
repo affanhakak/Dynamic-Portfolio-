@@ -30,9 +30,6 @@ function Contact() {
           })}
           <h1 className="text-white">{"}"}</h1>;
         </div>
-        <div className="h-[400px] w-1/2">
-          <img src="/images/affan-removebg-preview.png" alt="" />
-        </div>
       </div>
     </div>
   );
