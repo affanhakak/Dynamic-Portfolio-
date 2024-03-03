@@ -13,8 +13,8 @@ function About() {
   return (
     <div>
       <SectionTitle title="About Me" />
-      <div className="flex items-center w-full">
-        <div className="h-[70vh] w-1/2">
+      <div className="flex items-center w-full sm:flex-col">
+        <div className="h-[70vh] w-1/2 sm:w-full">
           <dotlottie-player
             src="https://lottie.host/46c57c8b-de6d-46a4-aabc-9ec2060a3f12/tovHEIDKKR.json"
             background="transparent"
@@ -22,7 +22,7 @@ function About() {
             autoplay
           ></dotlottie-player>
         </div>
-        <div className="flex flex-col gap-5 w-1/2">
+        <div className="flex flex-col gap-5 w-1/2 sm:w-full">
           <p className="text-white">
             I enjoy creating things on the web and upload them on a free source
             platform like github. I aim to create a bootstrap like library of my

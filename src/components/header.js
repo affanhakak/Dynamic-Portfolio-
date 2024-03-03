@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="p-5 bg-primary flex justify-between">
       <h1
-        className="text-secondary text-4xl font-semibold"
+        className="text-secondary text-3xl sm:text-1xl font-semibold"
         title="Marvel Cinematic Universe"
       >
         <a
@@ -16,7 +16,7 @@ function Header() {
         </a>
       </h1>
       <h1
-        className="text-white text-4xl font-semibold"
+        className="text-white text-3xl sm:text-1xl font-semibold"
         title="My favourite football club"
       >
         <a
@@ -24,10 +24,13 @@ function Header() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Manchester United
+          Man Utd
         </a>
       </h1>
-      <h1 className="text-tertiary text-4xl font-semibold" title="My home">
+      <h1
+        className="text-tertiary text-3xl sm:text-1xl font-semibold"
+        title="My home"
+      >
         <a
           href="https://en.wikipedia.org/wiki/Kashmir"
           target="_blank"
