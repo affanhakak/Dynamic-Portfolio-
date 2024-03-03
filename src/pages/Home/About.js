@@ -39,7 +39,7 @@ function About() {
         </div>
       </div>
       <div className="py-5">
-        <h1 className="text-tertiary text-xl">
+        <h1 className="text-white text-xl">
           The tech stack that I am currently working on personally or
           professionally
         </h1>
